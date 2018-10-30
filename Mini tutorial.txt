@@ -1,0 +1,25 @@
+PYCHARM: Ya tiene el proyecto que tenemos que usar preparado. Después de la práctica del mártes 	23/10/2018 que es de git veremos que repo tenemos que usar y demás.
+
+
+ABRIR EL ENTORNO DE DESPLIEGUE:
+	cd decide
+	cd docker
+	sudo docker-compose up -d
+
+	acceder a: http://10.5.0.1:8000/admin
+
+	por ahora el superusuario es: root/practica
+	
+	(parar cerrarlo)
+	sudo docker-compose down
+
+ABRIR EL ENTORNO DE DESARROLLO:
+	En pycharm abajo a la izquierda pulsar terminal y escribir:
+	sudo python3 ./manage.py runserver
+
+	(PD: también se puede hacer desde un terminal normal, pero ya que vamos a estar trabajando 		ahi es más comodo, imo)
+
+
+
+TUTORIAL PARA USAR DECIDE COMO APP WEB (al menos hay un mini tuto de la votación que es lo que nos interesa):
+https://github.com/wadobo/decide/wiki/Como-funciona-Decide

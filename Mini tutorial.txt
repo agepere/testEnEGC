@@ -23,3 +23,12 @@ ABRIR EL ENTORNO DE DESARROLLO:
 
 TUTORIAL PARA USAR DECIDE COMO APP WEB (al menos hay un mini tuto de la votación que es lo que nos interesa):
 https://github.com/wadobo/decide/wiki/Como-funciona-Decide
+
+GIT
+(Todo en el directorio del repo)
+
+primero git add. pa añadir los archivos inexistentes
+git commit -a -m "Titulo" -m "Descripcion"
+git push
+
+git pull
